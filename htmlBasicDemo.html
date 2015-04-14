@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Define a description of your web page   -->
+  <meta name="description" content="Learn HTML5 in this tutorial."/>
+  <!-- Define keywords for search engines -->
+  <meta name="keywords" content="html5,html5 tutorial, html5 doctype, html5 tags,learn html5"/>
+  <!-- Define the author of a page   -->
+  <meta name="author" content="Anna Su">
+  <!-- Refresh document every 30 seconds
+  <meta http-equiv="refresh" content="30"> -->
+  <!-- 搜索引擎預設網頁的robots屬性為all(index，follow)   -->
+  <meta name="robots" content="index,follow"/>
+  <title>Base HTML5</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>目錄</h1>
+<hr>
+<ul>
+  <li><a href="#text">Text</a></li>
+  <li><a href="#lists">Lists</a></li>
+  <li><a href="#links">Links</a></li>
+  <li><a href="#images">Images</a></li>
+  <li><a href="#tables">Tables</a></li>
+  <li><a href="#forms">Forms</a></li>
+</ul>
+<hr>  
+<h1 id="test">Text</h1>  
+<h2>Headings</h2>
+  <h1>This is a Main Heading</h1>
+  <h2>This is a Level 2 Heading</h2>
+  <h3>This is a Level 3 Heading</h3>
+  <h4>This is a Level 4 Heading</h4>
+  <h5>This is a Level 5 Heading</h5>
+  <h6>This is a Level 6 Heading</h6>
+<hr>
+<h2>Paragraphs</h2>
+  
+<p>A paragraph consists of one or more sentences that form a self-contained unit of discourse. The start of a paragraph is indicated by a new line.</p>
+  
+<hr>
+<h2>Bold</h2>
+<b>bold</b>
+<hr>  
+<h2>Italic</h2>
+<i>italic</i>  
+<hr>   
+<h2>Superscript</h2>
+<p>On the 4<sup>th</sup> of September you will learn about E=MC<sup>2</sup>.</p>  
+<hr>   
+<h2>Subscript</h2>
+<p>The amount of CO<sub>2</sub> in the atmosphere grew by 2ppm in 2009<sub>1</sub>.</p>  
+<hr>   
+<h2>White Space</h2>
+<p>The moon     is drifting away from Earth.</p>  
+<hr>   
+<h2>Line Breaks</h2>
+<p>The Earth<br>gets one hundred tons heavier every day<br>due to falling space dust.</p> 
+<hr>
+<h2>Horizontal Rules</h2>   
+<hr>
+<hr>
+<h2>blockquote</h2> 
+<blockquote cite="http://www.google.com">Hello, Welcome to Google !</blockquote>
+  
+<hr>
+  
+<h2>q</h2>  
+  
+<q cite="http://www.google.com"> Hello, Welcome to Google ! </q>  
+
+<hr>
+  
+<h2>pre</h2>
+
+<pre>
+                  _          _
+                 (.&lt;        &gt;.)
+                \(_)________( \
+                 (___________)\\
+                    (     )     \
+                     |   |
+                     |   |
+                     |   |
+                    _|   |_
+                   (_______)
+</pre>
+<hr>
+<h2>code</h2>
+<code>
+function sub(a,b) {
+	return a-b;
+}
+</code>
+
+<hr>
+  
+<h2>pre 與 code</h2>  
+<pre>
+<code>
+function sub(a,b) {
+	return a-b;
+}
+</code>
+</pre>
+  
+<hr>
+ 
+
+<!-- 4 ways to emphasize text without a line break -->
+<b>Bold : Bold Font</b><br>
+<strong>Strong : Bold Font</strong><br>
+<em>Emphasis : Italic Font</em><br>
+<i>Italic : Italic Font</i><br>
+
+<hr>
+  
+<!-- 3 ways to format text for special purposes -->
+<small>Small : Short Comment</small><br>
+<ins>Insert : Added to Document</ins><br>
+<del>Delete : Strike</del><br>
+<samp>Sample Programming Output</samp><br><br>
+
+<h1 id="lists">Lists</h1>
+
+<h2>Ordered Lists</h2>
+<ol>
+  <li>Chop potatoes into quarters</li>
+  <li>Simmer in salted water for 15-20 minutes until tender</li>
+  <li>Heat milk, butter and nutmeg</li>
+  <li>Drain potatoes and mash</li>
+</ol>  
+<hr>
+<h2>Unordered Lists</h2>
+<ul>
+  <li>1kg King Edward potatoes</li>
+  <li>100ml milk</li>
+  <li>50g salted butter</li>
+  <li>Freshly grated nutmeg</li>
+</ul>  
+<hr> 
+<h2>Definition Lists</h2>
+<dl>
+  <dt>Sashimi</dt>
+    <dd>Sliced raw fish that is served with condiments such as shredded daikon radish or ginger root, wasabi and soy sauce</dd>
+  <dt>Scale</dt>
+    <dd>A device used to accurately measure the weight of ingredients</dd>
+    <dd>A technique by which the scales are removed from the skin of a fish</dd>
+</dl>
+<hr> 
+<h2>Nested Lists</h2>
+<ul>
+  <li>Mousses</li>
+  <li>Pastries
+    <ul>
+      <li>Croissant</li>
+      <li>Mille-feuille</li>
+      <li>Palmier</li>
+    </ul>
+  </li>
+  <li>Tarts</li>
+</ul>  
+<hr> 
+<h1 id="links">Links</h1>
+<h2>基本連結</h2>
+<a href="http://www.google.com">Google</a>  
+<hr>
+<h2>連結到其他網站</h2>
+<ul>
+  <li><a href="http://www.empireonline.com">Empire</a></li>
+  <li><a href="http://www.metacritic.com">Metacritic</a></li>
+  <li><a href="http://www.rottentomatoes.com">Rotten Tomatoes</a></li>
+  <li><a href="http://www.variety.com">Variety</a></li>
+</ul>  
+<hr>
+<h2>連到同一網站的不同網頁</h2>
+<ul>
+  <li><a href="index2.html">Home</a></li>
+  <li><a href="about-us.html">About</a></li>
+  <li><a href="movies.html">Movies</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>  
+<hr>
+<h2>EMAIL連結</h2>
+<a href="mailto:newstory0113@gmail.com">Email Anna</a>  
+<hr>
+<h2>在新視窗開啟連結</h2>
+<a href="http://www.google.com" target="_blank">Google</a>  
+<hr>
+<h2>連結到同網頁的特定區域</h2>
+
+  <h3 id="top">Film-Making Terms</h3>
+  <a href="#arc_shot">Arc Shot</a><br>
+  <a href="#interlude">Interlude</a><br>
+  <h3 id="arc_shot">Arc Shot</h2>
+  <p>A shot in which the subject is photographed by an encircling or moving camera</p>
+  <h3 id="interlude">Interlude</h2>
+  <p>A brief, intervening film scene or sequence, not specifically tied to the plot, that appears within a film</p>
+  <p><a href="#top">Top</a></p>
+<hr>
+<h2>連結到另一個網頁的特定區域</h2>
+<a href="http://www.htmlandcssbook.com/#bottom" target="_blank">html and css book</a>  
+<hr>
+  
+
+<h1 id="images">img</h1>
+  
+<!-- Adding images : define width, height and alt -->
+<img id="fakeimg" src="http://fakeimg.pl/200x180/" width="200" height="180" title="oh! this is a fake img- width is 200px" alt="this is a fake img"><br>
+
+<hr>
+  <a href="http://www.codecademy.com" target="_blank"><img src="http://s3.amazonaws.com/codecademy-blog/assets/f3a16fb6.jpg" /></a>
+  
+<hr>
+<h1 id="tables">Tables</h1>
+<h2>基本表格結構</h2>
+<table>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>8</td>
+    <td>9</td>
+  </tr>
+</table>  
+<hr>  
+<h2>基本表格結構+標題</h2>
+<table>
+    <tbody>
+      <tr>
+        <th></th>
+        <th scope="col">coffee</th>
+        <th scope="col">tea</th>
+      </tr>
+      <tr>
+        <th scope="row">sold:</th>
+        <td>50</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <th scope="row">Total sales:</th>
+        <td>$1500</td>
+        <td>$1800</td>
+      </tr>
+    </tbody>
+</table>  
+<hr>
+<h2>跨欄表格</h2>
+<table>
+  <tbody>
+    <tr>
+      <th></th>
+      <th>9am</th>
+      <th>10am</th>
+      <th>11am</th>
+      <th>12am</th>
+    </tr>
+    <tr>
+        <th>Monday</th>
+        <td colspan="2">Geography</td>
+        <td>Math</td>
+        <td>Art</td>
+    </tr>
+    <tr>
+        <th>Tuesday</th>
+        <td colspan="3">Gym</td>
+        <td>Home Ec</td>
+    </tr>
+  </tbody>
+</table>  
+<hr>
+<h2>跨列表格</h2>
+<table>
+  <tbody>
+    <tr>
+      <th></th>
+      <th>ABC</th>
+      <th>BBC</th>
+      <th>CNN</th>
+    </tr>
+    <tr>
+      <th>6pm - 7pm</th>
+      <td rowspan="2">Movie</td>
+      <td>Comedy</td>
+      <td>News</td>
+    </tr>
+    <tr>
+      <th>7pm - 8pm</th>
+      <td>Sport</td>
+      <td>Current Affairs</td>
+    </tr>
+  </tbody>
+</table>
+<hr>
+<h2>長表格</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Income</th>
+            <th>Expenditure</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>1st January</th>
+            <td>250</td>
+            <td>36</td>
+        </tr>
+        <tr>
+            <th>2nd January</th>
+            <td>285</td>
+            <td>48</td>
+        </tr>
+        <tr>
+            <th>3rd January</th>
+            <td>260</td>
+            <td>42</td>
+        </tr>
+        <tr>
+            <th>4th January</th>
+            <td>290</td>
+            <td>38</td>
+        </tr>
+        <tr>
+            <th>5th January</th>
+            <td>310</td>
+            <td>115</td>
+        </tr>
+        <tr>
+            <th>6th January</th>
+            <td>168</td>
+            <td>14</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td></td>
+            <td>7824</td>
+            <td>1241</td>
+        </tr>
+    </tfoot>
+</table>
+<hr>
+<h1 id="forms">Forms</h1>
+<h2>表單結構- Form Structure</h2>  
+<form action="http://www.example.com/subscribe.php" method="get">
+  <p>This is where the form controls will appear.</p>
+</form>
+<hr>
+<h2>文字輸入框- Text Input</h2>
+<p>Username:
+  <input type="text" name="username" size="30" maxlength="30">
+</p>
+<hr>    
+<h2>密碼輸入框- Password Input</h2>
+<p>Password:
+  <input type="password" name="password" size="15" maxlength="30">
+</p>
+<hr> 
+  
+<h2>文字區塊輸入- Textarea</h2>
+<textarea name="comments" cols="30" rows="2">Enter your comments...</textarea>
+<hr>  
+  
+<h2>單選- Radio Button</h2>
+<p>Please select your favorite genre:
+  <br>
+  <input type="radio" name="genre" value="aaa" > Rock
+  <input type="radio" name="genre" value="pop" checked="checked"> Pop
+  <input type="radio" name="genre" value="jazz"> Jazz
+  <input type="radio" name="genre" value="0113"> anna
+</p>
+<hr>  
+<h2>勾選- Checkbox</h2>
+<p>Please select your favorite music service(s):
+  <br>
+  <input type="checkbox" name="service" value="itunes" checked="checked"> iTunes
+  <input type="checkbox" name="service" value="lastfm"> Last.fm
+  <input type="checkbox" name="service" value="spotify"> Spotify
+  <input type="checkbox" name="service" value="anna"> Anna
+</p>
+<hr>  
+<h2>下拉選單-單選 Drop Down List Box</h2>
+<select name="devices">
+  <option value="ipod">iPod</option>
+  <option value="radio">Radio</option>
+  <option value="computer">Computer</option>
+  <option value="anna">anna</option>
+</select>
+<hr>  
+<h2>下拉選單-多選 Multiple Select Box</h2>
+<select name="instruments" size="3" multiple="multiple">
+  <option value="guitar" selected="selected">Guitar</option>
+  <option value="drums">Drums</option>
+  <option value="keyboard" selected="selected">Keyboard</option>
+  <option value="bass">Bass</option>
+</select>
+<hr>  
+<h2>檔案上傳區塊 File Input Box</h2>
+<input type="file" name="user-song">
+<br>
+<input type="submit" value="Upload">
+<hr>  
+<h2>送出按鈕 Submit Button</h2>
+<form action="http://www.example.com/subscribe.php">
+  <p>Subscribe to our email list:</p>
+  <input type="text" name="email">
+  <input type="submit" name="subscribe" value="Subscribe">
+</form>
+<hr>    
+<h2>圖片按鈕 Image Button (input)</h2>
+<input type="image" src="http://www.htmlandcssbook.com/code-samples/chapter-07/images/subscribe.jpg" width="100" height="20">
+<hr>  
+<h2>圖片按鈕 Image Button (button)</h2>  
+<button><img src="http://www.htmlandcssbook.com/code-samples/chapter-07/images/add.gif" alt="add" width="10" height="10"> Add</button>
+<hr>
+<h2>標籤 Button and Hidden Controls</h2>
+<label>Age: <input type="text" name="age"></label>
+<br>  
+Gender:
+<input id="female" type="radio" name="gender" value="f">
+<label for="female">Female</label>
+<input id="male" type="radio" name="gender" value="m">
+<label for="male">Male</label>  
+<br>  
+<hr> 
+<h2>表單群組 Labelling Form Controls</h2>
+<fieldset>
+  <legend>Contact details</legend>
+  <label>Email:<br><input type="text" name="email"></label><br>
+  <label>Mobile:<br><input type="text" name="mobile"></label><br>
+  <label>Telephone:<br><input type="text" name="telephone"></label>
+</fieldset>  
+<hr>
+  
+<br>  
+- See more at: 
+  
+<ul>
+  <li><a href="http://www.newthinktank.com/2014/12/html-5-tutorial/" target="_blank">html-5-tutorial</a></li>
+  <li><a href="http://www.htmlandcssbook.com/code-samples/" target="_blank">htmlandcssbook.com</a></li>
+</ul>  
+  <li>（AnnaSu 根據此書範例，整理而成- <a href="http://www.htmlandcssbook.com/" target="_blank">htmlandcssbook</a>）</li>
+</body>
+</html>
